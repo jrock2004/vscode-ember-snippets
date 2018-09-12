@@ -1,0 +1,75 @@
+{
+
+  "store.findAll(...)": {
+    "prefix": "find-all",
+    "body": [
+      "this.store.findAll('${1:model}');"
+    ],
+    "description": "Ember Data"
+  },
+
+  "store.findRecord(...)": {
+    "prefix": "find-record",
+    "body": [
+      "this.store.findRecord('${1:model}', params.${1:model}_id);"
+    ],
+    "description": "Ember Data"
+  },
+
+  "store.peekAll(...)": {
+    "prefix": "peek-all",
+    "body": [
+      "this.store.peekAll('${1:model}');"
+    ],
+    "description": "Ember Data"
+  },
+
+  "store.peekRecord(...)": {
+    "prefix": "peek-record",
+    "body": [
+      "this.store.peekRecord('${1:model}', params.${1:model}_id);"
+    ],
+    "description": "Ember Data"
+  },
+
+  "store.query(...)": {
+    "prefix": "query-all",
+    "body": [
+      "this.store.query('${1:model}', { ${2:queryKey}: ${3:queryValue}});"
+    ],
+    "description": "Ember Data"
+  },
+
+  "store.queryRecord(...)": {
+    "prefix": "query-record",
+    "body": [
+      "this.store.queryRecord('${1:model}', { ${2:queryKey}: ${3:queryValue}});"
+    ],
+    "description": "Ember Data"
+  },
+
+  "attr(...)": {
+    "prefix": "attr",
+    "body": [
+      "attr('${1:string}'),"
+    ],
+    "description": "Ember Data"
+  },
+
+  "belongsTo(...)": {
+    "prefix": "belongsTo",
+    "body": [
+      "belongsTo('${1:name}'),"
+    ],
+    "description": "Ember Data"
+  },
+
+  "hasMany(...)": {
+    "prefix": "hasMany",
+    "body": [
+      "hasMany('${1:string}'),"
+    ],
+    "description": "Ember Data"
+  }
+
+}
