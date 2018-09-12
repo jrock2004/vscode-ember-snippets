@@ -1,0 +1,30 @@
+{
+
+  "import Ember": {
+    "prefix": "imE",
+    "body": [
+      "import Ember from 'ember';",
+      "const { ${1} } = Ember;"
+    ],
+    "description": "Ember"
+  },
+
+  "const {} = Ember": {
+    "prefix": "cE",
+    "body": [
+      "const { ${1} } = Ember;"
+    ],
+    "description": "Ember"
+  },
+
+  "run(() => { ... })": {
+    "prefix": "run",
+    "body": [
+      "run(() => {",
+      "\t${1}",
+      "});"
+    ],
+    "description": "Ember"
+  }
+
+}
