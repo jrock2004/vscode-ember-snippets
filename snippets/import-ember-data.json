@@ -1,0 +1,59 @@
+{
+
+  "Ember.Data.model": {
+    "prefix": "immodel",
+    "body": [
+      "import Model from 'ember-data/model';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Data.adapter": {
+    "prefix": "imadapter",
+    "body": [
+      "import Adapter from 'ember-data/adapter';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Data.transform": {
+    "prefix": "imtransform",
+    "body": [
+      "import Transform from 'ember-data/transform';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Data.serializer": {
+    "prefix": "imserializer",
+    "body": [
+      "import Serializer from 'ember-data/serializer';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Data.attr": {
+    "prefix": "imattr",
+    "body": [
+      "import attr from 'ember-data/attr';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Data.hasMany": {
+    "prefix": "imhasMany",
+    "body": [
+      "import { hasMany } from 'ember-data/relationships';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Data.belongsTo": {
+    "prefix": "imbelongsTo",
+    "body": [
+      "import { belongsTo } from 'ember-data/relationships';"
+    ],
+    "description": "Ember module"
+  }
+
+}

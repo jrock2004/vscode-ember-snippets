@@ -1,65 +1,71 @@
-# vscode-ember-snippets README
+# Vscode Ember Snippets
 
-This is the README for your extension "vscode-ember-snippets". After writing up a brief description, we recommend including the following sections.
+Ember.js ES6, Ember Data & Handlebars snippets for Vscode editor. The credit of these
+snippets [goes to this Atom package by mattmcmanus](https://github.com/mattmcmanus/atom-ember-snippets).
 
-## Features
+## Installation
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+- Press `F1`, paste `ext install vscode-ember-snippets` & then press `enter` (or)
+- Goto extensions by pressing `Ctrl-Shift-X` (Windows/Linux) or `Cmd-Shift-X` (Mac) & Search for `Vscode Ember Snippets`, click on install
 
-For example if there is an image subfolder under your extension project workspace:
+## Usage
 
-\!\[feature X\]\(images/feature-x.png\)
+Rather than listing everything out here, check out the snippet files themselves:
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+* [ember core snippets](snippets/ember.json) for:
+  * Ember Objects
+  * Routes
+  * Components
+  * Enumerables
+  * Logger
+  * Test
+* ember rfc176 compliant imports*
+  * *Note*: These imports require `ember-cli-babel@6.6.0` or higher
+  * [application](snippets/import-application.json)
+  * [array](snippets/import-array.json)
+  * [base](snippets/import-base.json)
+  * [component](snippets/import-component.json)
+  * [controller](snippets/import-controller.json)
+  * [debug](snippets/import-debug.json)
+  * [engine](snippets/import-engine.json)
+  * [map](snippets/import-map.json)
+  * [object](snippets/import-object.json)
+  * [polyfills](snippets/import-polyfills.json)
+  * [routing](snippets/import-routing.json)
+  * [rsvp](snippets/import-rsvp.json)
+  * [runloop](snippets/import-runloop.json)
+  * [service](snippets/import-service.json)
+  * [string](snippets/import-string.json)
+  * [test](snippets/import-test.json)
+  * [utils](snippets/import-utils.json)
+* [New file stubs](snippets/file-skeletons.json) for:
+  * Routers, Components, Helpers & more
+* [ember-data snippets](snippets/ember-data.json) for:
+  * Store
+  * Models
+* [Handlebars](snippets/handlebars.json) for:
+  * Default Helpers
+  * Components
 
-## Requirements
+## Contributing
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+Please send PRs! I am sure there may be things I missed
 
-## Extension Settings
+### Third Party Snippets
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
+In order to keep this package as focused and "lightweight" as possible. It has
+been decided that it will focus on Ember snippets and it will not contain snippets
+for various addons and/or third-party libraries.
 
-For example:
+You are more than welcomed to share your aggregated snippets using the list of
+addon related snippets below.
 
-This extension contributes the following settings:
+### Non-Exhaustive List of Addon Related Snippets
 
-* `myExtension.enable`: enable/disable this extension
-* `myExtension.thing`: set to `blah` to do something
-
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
+* [Ember Data Factory Guy Snippets](https://github.com/Oreoz/atom-ember-data-factory-guy-snippets)
 
 ## Release Notes
 
-Users appreciate release notes as you update your extension.
-
 ### 1.0.0
 
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
-
------------------------------------------------------------------------------------------------------------
-
-## Working with Markdown
-
-**Note:** You can author your README using Visual Studio Code.  Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux)
-* Toggle preview (`Shift+CMD+V` on macOS or `Shift+Ctrl+V` on Windows and Linux)
-* Press `Ctrl+Space` (Windows, Linux) or `Cmd+Space` (macOS) to see a list of Markdown snippets
-
-### For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+Copied over the snippets that the original plugin uses, with some fixes

@@ -2,7 +2,7 @@
     "name": "vscode-ember-snippets",
     "displayName": "vscode-ember-snippets",
     "description": "Ember.js ES6 Snippets for Vscode",
-    "version": "0.0.1",
+    "version": "1.0.0",
     "publisher": "jrock2004",
     "engines": {
       "vscode": "^1.27.0"
@@ -103,6 +103,10 @@
         {
           "language": "javascript",
           "path": "./snippets/import-utils.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-ember-data.json"
         }
       ]
     }
