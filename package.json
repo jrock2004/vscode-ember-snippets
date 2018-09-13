@@ -1,7 +1,7 @@
 {
     "name": "vscode-ember-snippets",
     "displayName": "vscode-ember-snippets",
-    "icon": "https://cdn.iconscout.com/icon/free/png-128/ember-1-285993.png",
+    "icon": "images/tomster-logo.png",
     "description": "Ember.js ES6 Snippets for Vscode",
     "version": "1.0.0",
     "publisher": "jrock2004",
@@ -11,6 +11,10 @@
     "categories": [
       "Snippets"
     ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/jrock2004/vscode-ember-snippets.git"
+    },
     "contributes": {
       "snippets": [
         {
