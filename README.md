@@ -27,6 +27,7 @@ Rather than listing everything out here, check out the snippet files themselves:
   * [component](snippets/import-component.json)
   * [controller](snippets/import-controller.json)
   * [debug](snippets/import-debug.json)
+  * [ember-data](snippets/import-ember-data.json)
   * [engine](snippets/import-engine.json)
   * [map](snippets/import-map.json)
   * [object](snippets/import-object.json)
@@ -73,3 +74,7 @@ Copied over the snippets that the original plugin uses, with some fixes
 ### 1.1.0
 
 Lower VS code version requirements
+
+### 1.1.1
+
+Adding to readme the missing ember-data

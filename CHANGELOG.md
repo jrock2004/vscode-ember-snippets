@@ -9,3 +9,6 @@
 
 ## [1.1.0]
 - Lower VS code version requirements
+
+## [1.1.1]
+- Adding to readme the missing ember-data
