@@ -69,3 +69,7 @@ addon related snippets below.
 ### 1.0.0
 
 Copied over the snippets that the original plugin uses, with some fixes
+
+### 1.1.0
+
+Lower VS code version requirements
