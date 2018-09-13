@@ -1,0 +1,43 @@
+{
+
+  "Ember.assign": {
+    "prefix": "imassign",
+    "body": [
+      "import { assign } from '@ember/polyfills';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.keys": {
+    "prefix": "imkeys",
+    "body": [
+      "import { keys } from '@ember/polyfills';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.merge": {
+    "prefix": "immerge",
+    "body": [
+      "import { merge } from '@ember/polyfills';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.create": {
+    "prefix": "imcreate",
+    "body": [
+      "import { create } from '@ember/polyfills';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.platform.hasPropertyAccessors": {
+    "prefix": "imhasPropertyAccessors",
+    "body": [
+      "import { hasPropertyAccessors } from '@ember/polyfills';"
+    ],
+    "description": "Ember module"
+  }
+
+}

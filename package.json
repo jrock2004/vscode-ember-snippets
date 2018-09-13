@@ -19,6 +19,90 @@
         {
           "language": "javascript",
           "path": "./snippets/ember.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/file-skeltons.json"
+        },
+        {
+          "language": "handlebars",
+          "path": "./snippets/handlebars.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-application.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-array.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-base.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-component.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-controller.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-debug.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-engine.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-map.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-object.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-polyfills.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-routing.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-rsvp.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-routing.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-rsvp.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-runloop.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-service.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-string.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-test.json"
+        },
+        {
+          "language": "javascript",
+          "path": "./snippets/import-utils.json"
         }
       ]
     }

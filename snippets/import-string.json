@@ -1,0 +1,91 @@
+{
+
+  "Ember.String.camelize": {
+    "prefix": "imcamelize",
+    "body": [
+      "import { camelize } from '@ember/string';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.String.capitalize": {
+    "prefix": "imcapitalize",
+    "body": [
+      "import { capitalize } from '@ember/string';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.String.classify": {
+    "prefix": "imclassify",
+    "body": [
+      "import { classify } from '@ember/string';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.String.dasherize": {
+    "prefix": "imdasherize",
+    "body": [
+      "import { dasherize } from '@ember/string';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.String.decamelize": {
+    "prefix": "imdecamelize",
+    "body": [
+      "import { decamelize } from '@ember/string';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.String.fmt": {
+    "prefix": "imfmt",
+    "body": [
+      "import { fmt } from '@ember/string';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.String.htmlSafe": {
+    "prefix": "imhtmlSafe",
+    "body": [
+      "import { htmlSafe } from '@ember/string';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.String.isHTMLSafe": {
+    "prefix": "isHTMLSafe",
+    "body": [
+      "import { isHTMLSafe } from '@ember/string';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.String.loc": {
+    "prefix": "imloc",
+    "body": [
+      "import { loc } from '@ember/string';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.String.underscore": {
+    "prefix": "imunderscore",
+    "body": [
+      "import { underscore } from '@ember/string';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.String.w": {
+    "prefix": "imw",
+    "body": [
+      "import { w } from '@ember/string';"
+    ],
+    "description": "Ember module"
+  }
+
+}

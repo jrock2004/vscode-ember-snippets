@@ -1,0 +1,75 @@
+{
+
+  "Ember.assert": {
+    "prefix": "imassert",
+    "body": [
+      "import { assert } from '@ember/debug';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.debug": {
+    "prefix": "imdebug",
+    "body": [
+      "import { debug } from '@ember/debug';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.inspect": {
+    "prefix": "iminspect",
+    "body": [
+      "import { inspect } from '@ember/debug';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Debug.registerDeprecationHandler": {
+    "prefix": "imregisterDeprecationHandler",
+    "body": [
+      "import { registerDeprecationHandler } from '@ember/debug';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Debug.registerWarnHandler": {
+    "prefix": "imregisterWarnHandler",
+    "body": [
+      "import { registerWarnHandler } from '@ember/debug';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.runInDebug": {
+    "prefix": "imrunInDebug",
+    "body": [
+      "import { runInDebug } from '@ember/debug';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.warn": {
+    "prefix": "imwarn",
+    "body": [
+      "import { warn } from '@ember/debug';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.ContainerDebugAdapter": {
+    "prefix": "imcontainerDebugAdapter",
+    "body": [
+      "import ContainerDebugAdapter from '@ember/debug/container-debug-adapter';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.DataAdapter": {
+    "prefix": "imdebugDataAdapter",
+    "body": [
+      "import DataAdapter from '@ember/debug/data-adapter';"
+    ],
+    "description": "Ember module"
+  }
+
+}

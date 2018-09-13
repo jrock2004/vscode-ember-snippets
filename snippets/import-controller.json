@@ -1,0 +1,19 @@
+{
+
+  "Ember.Controller": {
+    "prefix": "imcontroller",
+    "body": [
+      "import Controller from '@ember/controller';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.inject.controller": {
+    "prefix": "iminjectController",
+    "body": [
+      "import { inject as controller } from '@ember/controller';"
+    ],
+    "description": "Ember module"
+  }
+
+}

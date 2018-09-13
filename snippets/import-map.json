@@ -1,0 +1,19 @@
+{
+
+  "Ember.Map": {
+    "prefix": "immap",
+    "body": [
+      "import EmberMap from '@ember/map';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.MapWithDefault": {
+    "prefix": "immapWDefault",
+    "body": [
+      "import MapWithDefault from '@ember/map/with-default';"
+    ],
+    "description": "Ember module"
+  }
+
+}

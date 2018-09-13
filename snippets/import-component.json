@@ -1,0 +1,51 @@
+{
+
+  "Ember.Component": {
+    "prefix": "imcomponent",
+    "body": [
+      "import Component from '@ember/component';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Checkbox": {
+    "prefix": "imcheckbox",
+    "body": [
+      "import Checkbox from '@ember/checkbox';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Helper": {
+    "prefix": "imhelper",
+    "body": [
+      "import Helper from '@ember/helper';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Helper.helper": {
+    "prefix": "imhelperHelper",
+    "body": [
+      "import { helper } from '@ember/component/helper';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.TextArea": {
+    "prefix": "imtextArea",
+    "body": [
+      "import TextArea from '@ember/component/text-area';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.TextField": {
+    "prefix": "imtextField",
+    "body": [
+      "import TextField from '@ember/component/text-field';"
+    ],
+    "description": "Ember module"
+  }
+
+}

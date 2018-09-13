@@ -1,0 +1,51 @@
+{
+
+  "Ember.Array": {
+    "prefix": "imarray",
+    "body": [
+      "import EmberArray from '@ember/array';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.A": {
+    "prefix": "imemberArray",
+    "body": [
+      "import { A } from '@ember/array';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.isArray": {
+    "prefix": "imisArray",
+    "body": [
+      "import { isArray } from '@ember/array';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.makeArray": {
+    "prefix": "immakeArray",
+    "body": [
+      "import { makeArray } from '@ember/array';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.MutableArray": {
+    "prefix": "immutArray",
+    "body": [
+      "import MutableArray from '@ember/array/mutable';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.ArrayProxy": {
+    "prefix": "imarrayProxy",
+    "body": [
+      "import ArrayProxy from '@ember/array/proxy';"
+    ],
+    "description": "Ember module"
+  }
+
+}

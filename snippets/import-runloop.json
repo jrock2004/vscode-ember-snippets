@@ -1,0 +1,107 @@
+{
+
+  "Ember.run": {
+    "prefix": "imrun",
+    "body": [
+      "import { run } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.begin": {
+    "prefix": "imbegin",
+    "body": [
+      "import { begin } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.bind": {
+    "prefix": "imbind",
+    "body": [
+      "import { bind } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.cancel": {
+    "prefix": "imcancel",
+    "body": [
+      "import { cancel } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.debounce": {
+    "prefix": "imdebounce",
+    "body": [
+      "import { debounce } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.end": {
+    "prefix": "imend",
+    "body": [
+      "import { end } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.join": {
+    "prefix": "imjoin",
+    "body": [
+      "import { join } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.later": {
+    "prefix": "imlater",
+    "body": [
+      "import { later } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.next": {
+    "prefix": "imnext",
+    "body": [
+      "import { next } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.once": {
+    "prefix": "imonce",
+    "body": [
+      "import { once } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.schedule": {
+    "prefix": "imschedule",
+    "body": [
+      "import { schedule } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.scheduleOnce": {
+    "prefix": "imscheduleOnce",
+    "body": [
+      "import { scheduleOnce } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.run.throttle": {
+    "prefix": "imthrottle",
+    "body": [
+      "import { throttle } from '@ember/runloop';"
+    ],
+    "description": "Ember module"
+  }
+
+}

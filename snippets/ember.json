@@ -25,6 +25,426 @@
       "});"
     ],
     "description": "Ember"
+  },
+
+  "let ... get(...)": {
+    "prefix": "lget",
+    "body": [
+      "let $1 = ${2:this}.get('$1');"
+    ],
+    "description": "Ember"
+  },
+
+  ".set(...)": {
+    "prefix": "set",
+    "body": [
+      "${1:this}.set('${2}', ${3});"
+    ],
+    "description": "Ember"
+  },
+
+  ".get(...)": {
+    "prefix": "get",
+    "body": [
+      "${1:this}.get('${2}');"
+    ],
+    "description": "Ember"
+  },
+
+  "this._super(...)": {
+    "prefix": "set",
+    "body": [
+      "this._super(...arguments);"
+    ],
+    "description": "Ember"
+  },
+
+  "init() { ... }": {
+    "prefix": "init",
+    "body": [
+      "init() {",
+      "\tthis._super(...arguments);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "inject.service(...)": {
+    "prefix": "inject",
+    "body": [
+      "inject.service(${1}),"
+    ],
+    "description": "Ember"
+  },
+
+  "computed(...)": {
+    "prefix": "computed",
+    "body": [
+      "computed('${1:property}', function() {",
+      "\t${2:// body}",
+      "}),"
+    ],
+    "description": "Ember"
+  },
+
+  "observer(...)": {
+    "prefix": "observer",
+    "body": [
+      "observer('${1:property}', function() {",
+      "\t${2:// body}",
+      "}),"
+    ],
+    "description": "Ember"
+  },
+
+  "on(...)": {
+    "prefix": "on",
+    "body": [
+      "on('${1:property}', function() {",
+      "\t${2:// body}",
+      "}),"
+    ],
+    "description": "Ember"
+  },
+
+  "actions: { ... }": {
+    "prefix": "actions",
+    "body": [
+      "actions: {",
+      "\t${1:// body}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "computed.alias(...)": {
+    "prefix": "alias",
+    "body": [
+      "computed.alias('${2:property}')"
+    ],
+    "description": "Ember"
+  },
+
+  "Route: model(...) { ... }": {
+    "prefix": "model",
+    "body": [
+      "model(params = {}) {",
+      "\treturn this.store.query('${1}', params);",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "setupController(...) { ... }": {
+    "prefix": "setupController",
+    "body": [
+      "setupController(controller, model) {",
+      "\tthis._super(controller, model);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "Route: beforeModel(...) { ... }": {
+    "prefix": "beforeModel",
+    "body": [
+      "beforeModel(transition) {",
+      "\tthis._super(controller, model);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "Route: afterModel(...) { ... }": {
+    "prefix": "afterModel",
+    "body": [
+      "afterModel(model, transition) {",
+      "\tthis._super(controller, model);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "Component: didReceiveAttrs() { ... }": {
+    "prefix": "didReceiveAttrs",
+    "body": [
+      "didReceiveAttrs() {",
+      "\tthis._super(...arguments);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "Component: didRender() { ... }": {
+    "prefix": "didRender",
+    "body": [
+      "didRender() {",
+      "\tthis._super(...arguments);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "Component: didUpdateAttrs() { ... }": {
+    "prefix": "didUpdateAttrs",
+    "body": [
+      "didUpdateAttrs() {",
+      "\tthis._super(...arguments);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "Component: willUpdate() { ... }": {
+    "prefix": "willUpdate",
+    "body": [
+      "willUpdate() {",
+      "\tthis._super(...arguments);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "Component: didInsertElement() { ... }": {
+    "prefix": "didInsertElement",
+    "body": [
+      "didInsertElement() {",
+      "\tthis._super(...arguments);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "Component: willDestroyElement() { ... }": {
+    "prefix": "willDestroyElement",
+    "body": [
+      "willDestroyElement() {",
+      "\tthis._super(...arguments);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "Component: willClearElement() { ... }": {
+    "prefix": "willClearElement",
+    "body": [
+      "willClearElement() {",
+      "\tthis._super(...arguments);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  "Component: didDestroyElement() { ... }": {
+    "prefix": "didDestroyElement",
+    "body": [
+      "didDestroyElement() {",
+      "\tthis._super(...arguments);",
+      "\t${1}",
+      "},"
+    ],
+    "description": "Ember"
+  },
+
+  ".filterBy(...)": {
+    "prefix": "filter-by",
+    "body": [
+      "${1:enumerable}.filterBy('${2:property}', ${3:value});"
+    ],
+    "description": "Ember"
+  },
+
+  ".mapBy(...)": {
+    "prefix": "map-by",
+    "body": [
+      "${1:enumerable}.mapBy('${2:property}');"
+    ],
+    "description": "Ember"
+  },
+
+  ".every(...)": {
+    "prefix": "every",
+    "body": [
+      "${1:enumerable}.every(function(${2:item}) {",
+      "\t${3}",
+      "});"
+    ],
+    "description": "Ember"
+  },
+
+  ".isEvery(...)": {
+    "prefix": "is-every",
+    "body": [
+      "${1:enumerable}.isEvery('${2:property}', ${3:bool});"
+    ],
+    "description": "Ember"
+  },
+
+  ".some(...)": {
+    "prefix": "some",
+    "body": [
+      "${1:enumerable}.some(function(${2:item}) {",
+      "\t${3}",
+      "});"
+    ],
+    "description": "Ember"
+  },
+
+  ".isAny(...)": {
+    "prefix": "is-any",
+    "body": [
+      "${1:enumerable}.isAny('${2:property}', ${3:bool});"
+    ],
+    "description": "Ember"
+  },
+
+  ".toArray(...)": {
+    "prefix": "to-array",
+    "body": [
+      "${1:enumerable}.toArray();"
+    ],
+    "description": "Ember"
+  },
+
+  ".get('firstObject')": {
+    "prefix": "first-object",
+    "body": [
+      "${1:enumerable}.get('firstObject');"
+    ],
+    "description": "Ember"
+  },
+
+  ".get('lastObject')": {
+    "prefix": "last-object",
+    "body": [
+      "${1:enumerable}.get('lastObject');"
+    ],
+    "description": "Ember"
+  },
+
+  "Logger.debug(...)": {
+    "prefix": "logger-debug",
+    "body": [
+      "Logger.debug('${1:message}');"
+    ],
+    "description": "Ember"
+  },
+
+  "Logger.log(...)": {
+    "prefix": "logger-log",
+    "body": [
+      "Ember.Logger.log('${1:message}');"
+    ],
+    "description": "Ember"
+  },
+
+  "Logger.info(...)": {
+    "prefix": "logger-info",
+    "body": [
+      "Ember.Logger.info('${1:message}');"
+    ],
+    "description": "Ember"
+  },
+
+  "Logger.warn(...)": {
+    "prefix": "logger-warn",
+    "body": [
+      "Ember.Logger.warn('${1:message}');"
+    ],
+    "description": "Ember"
+  },
+
+  "Logger.error(...)": {
+    "prefix": "logger-error",
+    "body": [
+      "Ember.Logger.error('${1:message}');"
+    ],
+    "description": "Ember"
+  },
+
+  "visit(...)": {
+    "prefix": "visit",
+    "body": [
+      "visit('${1:url}');"
+    ],
+    "description": "Ember"
+  },
+
+  "fillIn(...)": {
+    "prefix": "fill-in",
+    "body": [
+      "fillIn('${1:selector}', '${2:text}');"
+    ],
+    "description": "Ember"
+  },
+
+  "click(...)": {
+    "prefix": "click",
+    "body": [
+      "click('${1:selector}');"
+    ],
+    "description": "Ember"
+  },
+
+  "keyEvent(...)": {
+    "prefix": "key-event",
+    "body": [
+      "keyEvent('${1:selector}', '${2:type}', '${3:keyCode}');"
+    ],
+    "description": "Ember"
+  },
+
+  "triggerEvent(...)": {
+    "prefix": "trigger-event",
+    "body": [
+      "triggerEvent('${1:selector}', '${2:type}', '${3:options}');"
+    ],
+    "description": "Ember"
+  },
+
+  "find(...)": {
+    "prefix": "find-element",
+    "body": [
+      "find('${1:selector}', '${2:context}');"
+    ],
+    "description": "Ember"
+  },
+
+  "await pauseTest(...)": {
+    "prefix": "pause",
+    "body": [
+      "await pauseTest();"
+    ],
+    "description": "Ember"
+  },
+
+  "await wait(...)": {
+    "prefix": "wait",
+    "body": [
+      "await wait();"
+    ],
+    "description": "Ember"
+  },
+
+  "andThen(...)": {
+    "prefix": "and",
+    "body": [
+      "andThen(() => {",
+      "\t${1}",
+      "});"
+    ],
+    "description": "Ember"
   }
 
 }

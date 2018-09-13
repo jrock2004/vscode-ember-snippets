@@ -1,0 +1,27 @@
+{
+
+  "Ember.Engine": {
+    "prefix": "imengine",
+    "body": [
+      "import Engine from '@ember/engine';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.EngineInstance": {
+    "prefix": "imengineInst",
+    "body": [
+      "import EngineInstance from '@ember/engine/instance';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.getEngineParent": {
+    "prefix": "imgetEngineParent",
+    "body": [
+      "import { getEngineParent } from '@ember/engine';"
+    ],
+    "description": "Ember module"
+  }
+
+}

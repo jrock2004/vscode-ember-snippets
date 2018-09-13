@@ -1,0 +1,51 @@
+{
+
+  "Ember.Test.Adapter": {
+    "prefix": "imtestAdapter",
+    "body": [
+      "import Test.Adapter from '@ember/test/adapter';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Test.registerAsyncHelper": {
+    "prefix": "imregisterAsyncHelper",
+    "body": [
+      "import { registerAsyncHelper } from '@ember/test';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Test.registerHelper": {
+    "prefix": "imregisterHelper",
+    "body": [
+      "import { registerHelper } from '@ember/test';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Test.registerWaiter": {
+    "prefix": "imregisterWaiter",
+    "body": [
+      "import { registerWaiter } from '@ember/test';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Test.unregisterHelper": {
+    "prefix": "imunregisterHelper",
+    "body": [
+      "import { unregisterHelper } from '@ember/test';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Ember.Test.unregisterWaiter": {
+    "prefix": "imunregisterWaiter",
+    "body": [
+      "import { unregisterWaiter } from '@ember/test';"
+    ],
+    "description": "Ember module"
+  }
+
+}
