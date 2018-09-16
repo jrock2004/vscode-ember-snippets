@@ -1,22 +1,5 @@
 {
 
-  "import Ember": {
-    "prefix": "imE",
-    "body": [
-      "import Ember from 'ember';",
-      "const { ${1} } = Ember;"
-    ],
-    "description": "Ember"
-  },
-
-  "const {} = Ember": {
-    "prefix": "cE",
-    "body": [
-      "const { ${1} } = Ember;"
-    ],
-    "description": "Ember"
-  },
-
   "run(() => { ... })": {
     "prefix": "run",
     "body": [
@@ -70,20 +53,10 @@
     "description": "Ember"
   },
 
-  "inject.service(...)": {
-    "prefix": "inject",
+  "service(...)": {
+    "prefix": "service",
     "body": [
-      "inject.service(${1}),"
-    ],
-    "description": "Ember"
-  },
-
-  "computed(...)": {
-    "prefix": "computed",
-    "body": [
-      "computed('${1:property}', function() {",
-      "\t${2:// body}",
-      "}),"
+      "service(${1}),"
     ],
     "description": "Ember"
   },
@@ -118,10 +91,344 @@
     "description": "Ember"
   },
 
-  "computed.alias(...)": {
-    "prefix": "alias",
+  "computed(...)": {
+    "prefix": "computed",
     "body": [
-      "computed.alias('${2:property}')"
+      "computed('${1:property}', function() {",
+      "\t${2:// body}",
+      "}),"
+    ],
+    "description": "Ember"
+  },
+
+  "alias(...)": {
+    "prefix": "calias",
+    "body": [
+      "alias('${1:key}')"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "and(...)": {
+    "prefix": "cand",
+    "body": [
+      "and('${1:key1}', '${2:key2}')"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "bool(...)": {
+    "prefix": "cbool",
+    "body": [
+      "bool(${1:key})"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "collect(...)": {
+    "prefix": "ccollect",
+    "body": [
+      "collect(${1:keys})"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "empty(...)": {
+    "prefix": "cempty",
+    "body": [
+      "empty('${1:key}')"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "equal(...)": {
+    "prefix": "cequal",
+    "body": [
+      "equal('${1:key}', ${2:value});"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "filter(...)": {
+    "prefix": "cfilter",
+    "body": [
+      "filter(${1:key}, function(${2:item}${3:, index}) {",
+      "\treturn ${2:item};",
+      "}));"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "filterBy(...)": {
+    "prefix": "cfilterBy",
+    "body": [
+      "filterBy('${1:key}', ${2:propertyKey}, ${3:value});"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "gt(...)": {
+    "prefix": "cgt",
+    "body": [
+      "gt('${1:key}', ${2:value});"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "gte(...)": {
+    "prefix": "cgte",
+    "body": [
+      "gte('${1:key}', ${2:value});"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "intersect(...)": {
+    "prefix": "intersect",
+    "body": [
+      "intersect(${1})"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "lt(...)": {
+    "prefix": "clt",
+    "body": [
+      "lt('${1:key}', ${2:value});"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "lte(...)": {
+    "prefix": "clte",
+    "body": [
+      "lte('${1:key}', ${2:value});"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "map(...)": {
+    "prefix": "cmap",
+    "body": [
+      "map(${1:key}, function(${2:item}${3:, index}) {",
+      "\treturn ${2:item};",
+      "}));"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "mapBy(...)": {
+    "prefix": "cmapBy",
+    "body": [
+      "mapBy('${1:key}', '${2:propertyKey}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "match(...)": {
+    "prefix": "cmatch",
+    "body": [
+      "match('${1:key}', ${2:regEx});"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "max(...)": {
+    "prefix": "cmax",
+    "body": [
+      "max('${1:key}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "min(...)": {
+    "prefix": "cmin",
+    "body": [
+      "min('${1:key}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "none(...)": {
+    "prefix": "cnone",
+    "body": [
+      "none('${1:key}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "not(...)": {
+    "prefix": "cnot",
+    "body": [
+      "not('${1:key}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "notEmpty(...)": {
+    "prefix": "cnotEmpty",
+    "body": [
+      "notEmpty('${1:key}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "oneWay(...)": {
+    "prefix": "coneWay",
+    "body": [
+      "oneWay('${1:key}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "or(...)": {
+    "prefix": "cor",
+    "body": [
+      "or('${1:key1}', '${2:key2}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "readOnly(...)": {
+    "prefix": "creadOnly",
+    "body": [
+      "readOnly('${1:key}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "reads(...)": {
+    "prefix": "creads",
+    "body": [
+      "reads('${1:key}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "setDiff(...)": {
+    "prefix": "csetDiff",
+    "body": [
+      "setDiff('${1:key1}', '${2:key2}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "sort(...)": {
+    "prefix": "csort",
+    "body": [
+      "sort('${1:itemsKey}', '${2:sortDefinition}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "sum(...)": {
+    "prefix": "csum",
+    "body": [
+      "sum('${1:key}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "union(...)": {
+    "prefix": "cunion",
+    "body": [
+      "union('${1:key1}', '${2:key2}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "uniq(...)": {
+    "prefix": "cuniq",
+    "body": [
+      "uniq('${1:key}', '${2:propertyKey}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "uniqBy(...)": {
+    "prefix": "cuniqBy",
+    "body": [
+      "uniqBy('${1:key}');"
+    ],
+    "description": "Ember Computed"
+  },
+
+  "bind(...)": {
+    "prefix": "bind",
+    "body": [
+      "bind(${1:this}, ${2:this.methodName});"
+    ],
+    "description": "Ember"
+  },
+
+  "cancel(...)": {
+    "prefix": "cancel",
+    "body": [
+      "cancel('${1:key}');"
+    ],
+    "description": "Ember"
+  },
+
+  "debounce(...)": {
+    "prefix": "debounce",
+    "body": [
+      "debounce(${1:this}, '${2:methodName}', ${3:500});"
+    ],
+    "description": "Ember"
+  },
+
+  "later(...)": {
+    "prefix": "later",
+    "body": [
+      "later(${1:this}, () => { ${2}\\}, ${3:500});"
+    ],
+    "description": "Ember"
+  },
+
+  "next(...)": {
+    "prefix": "next",
+    "body": [
+      "next(${1:this}, () => { ${2}\\});"
+    ],
+    "description": "Ember"
+  },
+
+  "once(...)": {
+    "prefix": "once",
+    "body": [
+      "once(${1:this}, () => { ${2}\\});"
+    ],
+    "description": "Ember"
+  },
+
+  "run(...)": {
+    "prefix": "run",
+    "body": [
+      "run(() => { ${1}\\});"
+    ],
+    "description": "Ember"
+  },
+
+  "schedule(...)": {
+    "prefix": "schedule",
+    "body": [
+      "schedule('${1:queue}', ${2:this}, () => { ${3}\\}, );"
+    ],
+    "description": "Ember"
+  },
+
+  "scheduleOnce(...)": {
+    "prefix": "scheduleOnce",
+    "body": [
+      "scheduleOnce('${1:queue}', ${2:this}, () => { ${3}\\}, );"
+    ],
+    "description": "Ember"
+  },
+
+  "throttle(...)": {
+    "prefix": "throttle",
+    "body": [
+      "throttle(${1:this}, '${2:methodName}', ${3:500});"
     ],
     "description": "Ember"
   },
@@ -258,19 +565,19 @@
   },
 
   ".filterBy(...)": {
-    "prefix": "filter-by",
+    "prefix": "filterBy",
     "body": [
       "${1:enumerable}.filterBy('${2:property}', ${3:value});"
     ],
-    "description": "Ember"
+    "description": "Ember Enumerable"
   },
 
   ".mapBy(...)": {
-    "prefix": "map-by",
+    "prefix": "mapBy",
     "body": [
       "${1:enumerable}.mapBy('${2:property}');"
     ],
-    "description": "Ember"
+    "description": "Ember Enumerable"
   },
 
   ".every(...)": {
@@ -280,7 +587,7 @@
       "\t${3}",
       "});"
     ],
-    "description": "Ember"
+    "description": "Ember Enumerable"
   },
 
   ".isEvery(...)": {
@@ -288,7 +595,7 @@
     "body": [
       "${1:enumerable}.isEvery('${2:property}', ${3:bool});"
     ],
-    "description": "Ember"
+    "description": "Ember Enumerable"
   },
 
   ".some(...)": {
@@ -298,7 +605,7 @@
       "\t${3}",
       "});"
     ],
-    "description": "Ember"
+    "description": "Ember Enumerable"
   },
 
   ".isAny(...)": {
@@ -306,7 +613,7 @@
     "body": [
       "${1:enumerable}.isAny('${2:property}', ${3:bool});"
     ],
-    "description": "Ember"
+    "description": "Ember Enumerable"
   },
 
   ".toArray(...)": {
@@ -314,7 +621,7 @@
     "body": [
       "${1:enumerable}.toArray();"
     ],
-    "description": "Ember"
+    "description": "Ember Enumerable"
   },
 
   ".get('firstObject')": {
@@ -322,7 +629,7 @@
     "body": [
       "${1:enumerable}.get('firstObject');"
     ],
-    "description": "Ember"
+    "description": "Ember Enumerable"
   },
 
   ".get('lastObject')": {
@@ -330,121 +637,7 @@
     "body": [
       "${1:enumerable}.get('lastObject');"
     ],
-    "description": "Ember"
-  },
-
-  "Logger.debug(...)": {
-    "prefix": "logger-debug",
-    "body": [
-      "Logger.debug('${1:message}');"
-    ],
-    "description": "Ember"
-  },
-
-  "Logger.log(...)": {
-    "prefix": "logger-log",
-    "body": [
-      "Ember.Logger.log('${1:message}');"
-    ],
-    "description": "Ember"
-  },
-
-  "Logger.info(...)": {
-    "prefix": "logger-info",
-    "body": [
-      "Ember.Logger.info('${1:message}');"
-    ],
-    "description": "Ember"
-  },
-
-  "Logger.warn(...)": {
-    "prefix": "logger-warn",
-    "body": [
-      "Ember.Logger.warn('${1:message}');"
-    ],
-    "description": "Ember"
-  },
-
-  "Logger.error(...)": {
-    "prefix": "logger-error",
-    "body": [
-      "Ember.Logger.error('${1:message}');"
-    ],
-    "description": "Ember"
-  },
-
-  "visit(...)": {
-    "prefix": "visit",
-    "body": [
-      "visit('${1:url}');"
-    ],
-    "description": "Ember"
-  },
-
-  "fillIn(...)": {
-    "prefix": "fill-in",
-    "body": [
-      "fillIn('${1:selector}', '${2:text}');"
-    ],
-    "description": "Ember"
-  },
-
-  "click(...)": {
-    "prefix": "click",
-    "body": [
-      "click('${1:selector}');"
-    ],
-    "description": "Ember"
-  },
-
-  "keyEvent(...)": {
-    "prefix": "key-event",
-    "body": [
-      "keyEvent('${1:selector}', '${2:type}', '${3:keyCode}');"
-    ],
-    "description": "Ember"
-  },
-
-  "triggerEvent(...)": {
-    "prefix": "trigger-event",
-    "body": [
-      "triggerEvent('${1:selector}', '${2:type}', '${3:options}');"
-    ],
-    "description": "Ember"
-  },
-
-  "find(...)": {
-    "prefix": "find-element",
-    "body": [
-      "find('${1:selector}', '${2:context}');"
-    ],
-    "description": "Ember"
-  },
-
-  "await pauseTest(...)": {
-    "prefix": "pause",
-    "body": [
-      "await pauseTest();"
-    ],
-    "description": "Ember"
-  },
-
-  "await wait(...)": {
-    "prefix": "wait",
-    "body": [
-      "await wait();"
-    ],
-    "description": "Ember"
-  },
-
-  "andThen(...)": {
-    "prefix": "and",
-    "body": [
-      "andThen(() => {",
-      "\t${1}",
-      "});"
-    ],
-    "description": "Ember"
+    "description": "Ember Enumerable"
   }
 
 }
