@@ -1,0 +1,179 @@
+{
+
+  "await click(...)": {
+    "prefix": "click",
+    "body": [
+      "await click('${1:selector}');"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await doubleClick(...)": {
+    "prefix": "doubleClick",
+    "body": [
+      "await doubleClick('${1:selector}');"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await tap(...)": {
+    "prefix": "tap",
+    "body": [
+      "await tap('${1:selector}');"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await focus(...)": {
+    "prefix": "focus",
+    "body": [
+      "await focus('${1:selector}');"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await blur(...)": {
+    "prefix": "blur",
+    "body": [
+      "await blur('${1:selector}');"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await triggerKeyEvent(...)": {
+    "prefix": "triggerKeyEvent",
+    "body": [
+      "await triggerKeyEvent('${1:sel}', '${2:type}', '${3:key}', '${4:mods}');"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await triggerEvent(...)": {
+    "prefix": "triggerEvent",
+    "body": [
+      "await triggerEvent('$${1:selector}', '${2:type}', '${3:options}');"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await fillIn(...)": {
+    "prefix": "fillIn",
+    "body": [
+      "await fillIn('${1:selector}', '${2:text}');"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await find(...)": {
+    "prefix": "find",
+    "body": [
+      "find('${1:selector}');"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await findAll(...)": {
+    "prefix": "findAll",
+    "body": [
+      "findAll('${1:selector}');"
+    ],
+    "description": "Ember Test"
+  },
+
+  "getRootElement()": {
+    "prefix": "getRootElement",
+    "body": [
+      "getRootElement();"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await visit(...)": {
+    "prefix": "visit",
+    "body": [
+      "await visit('${1:url}');"
+    ],
+    "description": "Ember Test"
+  },
+
+  "currentRouteName()": {
+    "prefix": "currentRouteName",
+    "body": [
+      "currentRouteName();"
+    ],
+    "description": "Ember Test"
+  },
+
+  "currentURL(...)": {
+    "prefix": "currentURL",
+    "body": [
+      "currentURL();"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await render(...)": {
+    "prefix": "render",
+    "body": [
+      "await render(hbs`$1`);"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await clearRender()": {
+    "prefix": "render",
+    "body": [
+      "await clearRender();"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await waitFor(...)": {
+    "prefix": "waitFor",
+    "body": [
+      "await waitFor('${1:selector}'${2:, { timeout: 1000, count: 1 \\}});"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await waitUntil(...)": {
+    "prefix": "waitUntil",
+    "body": [
+      "await waitUntil(() => { $1; }${2:, { timeout: 1000 \\}});"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await settled()": {
+    "prefix": "settled",
+    "body": [
+      "await settled();"
+    ],
+    "description": "Ember Test"
+  },
+
+  "isSettled()": {
+    "prefix": "isSettled",
+    "body": [
+      "isSettled();"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await getSettledState()": {
+    "prefix": "getSettledState",
+    "body": [
+      "getSettledState();"
+    ],
+    "description": "Ember Test"
+  },
+
+  "await this.pauseTest(...)": {
+    "prefix": "pauseTest",
+    "body": [
+      "await this.pauseTest();"
+    ],
+    "description": "Ember Test"
+  }
+
+}

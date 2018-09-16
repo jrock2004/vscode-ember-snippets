@@ -46,6 +46,310 @@
       "import { unregisterWaiter } from '@ember/test';"
     ],
     "description": "Ember module"
+  },
+
+  "click from '@ember/test-helpers'": {
+    "prefix": "imclick",
+    "body": [
+      "import { click } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "doubleClick from '@ember/test-helpers'": {
+    "prefix": "imdoubleClick",
+    "body": [
+      "import { doubleClick } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "tap from '@ember/test-helpers'": {
+    "prefix": "imtap",
+    "body": [
+      "import { tap } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "focus from '@ember/test-helpers'": {
+    "prefix": "imfocus",
+    "body": [
+      "import { focus } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "blur from '@ember/test-helpers'": {
+    "prefix": "imblur",
+    "body": [
+      "import { blur } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "triggerEvent from '@ember/test-helpers'": {
+    "prefix": "imtriggerEvent",
+    "body": [
+      "import { triggerEvent } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "triggerKeyEvent from '@ember/test-helpers'": {
+    "prefix": "imtriggerKeyEvent",
+    "body": [
+      "import { triggerKeyEvent } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "fillIn from '@ember/test-helpers'": {
+    "prefix": "imfillIn",
+    "body": [
+      "import { fillIn } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "find from '@ember/test-helpers'": {
+    "prefix": "imfind",
+    "body": [
+      "import { find } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "findAll from '@ember/test-helpers'": {
+    "prefix": "imfindAll",
+    "body": [
+      "import { findAll } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "getRootElement from '@ember/test-helpers'": {
+    "prefix": "imgetRootElement",
+    "body": [
+      "import { getRootElement } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "visit from '@ember/test-helpers'": {
+    "prefix": "imvisit",
+    "body": [
+      "import { visit } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "currentRouteName from '@ember/test-helpers'": {
+    "prefix": "imcurrentRouteName",
+    "body": [
+      "import { currentRouteName } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "currentURL from '@ember/test-helpers'": {
+    "prefix": "imcurrentURL",
+    "body": [
+      "import { currentURL } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "render from '@ember/test-helpers'": {
+    "prefix": "imrender",
+    "body": [
+      "import { render } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "clearRender from '@ember/test-helpers'": {
+    "prefix": "imclearRender",
+    "body": [
+      "import { clearRender } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "Wait from '@ember/test-helpers'": {
+    "prefix": "imWait",
+    "body": [
+      "import { Wait } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "waitFor from '@ember/test-helpers'": {
+    "prefix": "imwaitFor",
+    "body": [
+      "import { waitFor } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "waitUntil from '@ember/test-helpers'": {
+    "prefix": "imwaitUntil",
+    "body": [
+      "import { waitUntil } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "settled from '@ember/test-helpers'": {
+    "prefix": "imsettled",
+    "body": [
+      "import { settled } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "isSettled from '@ember/test-helpers'": {
+    "prefix": "imisSettled",
+    "body": [
+      "import { isSettled } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "getSettledState from '@ember/test-helpers'": {
+    "prefix": "imgetSettledState",
+    "body": [
+      "import { getSettledState } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "pauseTest from '@ember/test-helpers'": {
+    "prefix": "impauseTest",
+    "body": [
+      "import { pauseTest } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "resumeTest from '@ember/test-helpers'": {
+    "prefix": "imresumeTest",
+    "body": [
+      "import { resumeTest } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "setResolver from '@ember/test-helpers'": {
+    "prefix": "imsetResolver",
+    "body": [
+      "import { setResolver } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "getResolver from '@ember/test-helpers'": {
+    "prefix": "imgetResolver",
+    "body": [
+      "import { getResolver } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "setupContext from '@ember/test-helpers'": {
+    "prefix": "imsetupContext",
+    "body": [
+      "import { setupContext } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "getContext from '@ember/test-helpers'": {
+    "prefix": "imgetContext",
+    "body": [
+      "import { getContext } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "setContext from '@ember/test-helpers'": {
+    "prefix": "imsetContext",
+    "body": [
+      "import { setContext } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "unsetContext from '@ember/test-helpers'": {
+    "prefix": "imunsetContext",
+    "body": [
+      "import { unsetContext } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "teardownContext from '@ember/test-helpers'": {
+    "prefix": "imteardownContext",
+    "body": [
+      "import { teardownContext } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "setupRenderingContext from '@ember/test-helpers'": {
+    "prefix": "imsetupRenderingContext",
+    "body": [
+      "import { setupRenderingContext } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "teardownRenderingContext from '@ember/test-helpers'": {
+    "prefix": "imteardownRenderingContext",
+    "body": [
+      "import { teardownRenderingContext } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "getApplication from '@ember/test-helpers'": {
+    "prefix": "imgetApplication",
+    "body": [
+      "import { getApplication } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "setApplication from '@ember/test-helpers'": {
+    "prefix": "imsetApplication",
+    "body": [
+      "import { setApplication } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "setupApplicationContext from '@ember/test-helpers'": {
+    "prefix": "imsetupApplicationContext",
+    "body": [
+      "import { setupApplicationContext } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "teardownApplicationContext from '@ember/test-helpers'": {
+    "prefix": "imteardownApplicationContext",
+    "body": [
+      "import { teardownApplicationContext } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
+  },
+
+  "validateErrorHandler from '@ember/test-helpers'": {
+    "prefix": "imvalidateErrorHandler",
+    "body": [
+      "import { validateErrorHandler } from '@ember/test-helpers';"
+    ],
+    "description": "Ember module"
   }
 
 }
