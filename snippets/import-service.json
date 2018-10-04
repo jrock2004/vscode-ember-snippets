@@ -1,19 +1,14 @@
 {
-
   "Ember.Service": {
     "prefix": "imservice",
-    "body": [
-      "import Service from '@ember/service';"
-    ],
-    "description": "Ember module"
+    "leftLabelHTML": "<span style=\"color:#E46651\">Ember module</span>",
+    "body": "import Service from '@ember/service';",
+    "description": "Ember.Service"
   },
-
   "Ember.inject.service": {
     "prefix": "iminjectService",
-    "body": [
-      "import { inject as service } from '@ember/service';"
-    ],
-    "description": "Ember module"
+    "leftLabelHTML": "<span style=\"color:#E46651\">Ember module</span>",
+    "body": "import { inject as service } from '@ember/service';",
+    "description": "Ember.inject.service"
   }
-
 }
