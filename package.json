@@ -3,7 +3,7 @@
     "displayName": "vscode-ember-snippets",
     "icon": "images/tomster-logo.png",
     "description": "Ember.js ES6 Snippets for Vscode",
-    "version": "2.1.0",
+    "version": "2.1.1",
     "publisher": "jrock2004",
     "engines": {
       "vscode": "^1.20.0"
@@ -27,7 +27,7 @@
         },
         {
           "language": "javascript",
-          "path": "./snippets/file-skeltons.json"
+          "path": "./snippets/file-skeletons.json"
         },
         {
           "language": "handlebars",
